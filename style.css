@@ -132,12 +132,14 @@ footer>nav>h1{
 }
 
 footer>nav {
-    display: inline-block;
+	display: inline-block;
     font-size: 11px;
    position: center;
    bottom: 0;
-   padding: 5%;
+   padding: 4.5%;
    padding-top: 1%;
+   vertical-align: top;
+   margin-bottom: 4px;
 }
 
 
