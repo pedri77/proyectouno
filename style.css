@@ -74,9 +74,10 @@ main {
 	padding-bottom:1rem;
 }
  /* Aquí comienzo la descripcion del restaurante */
-a {       
+main>a {       
    color: red;   
-  }
+}
+
 .section-u {       
 	margin-left: 5rem;
 	margin-right: 5rem;
@@ -117,4 +118,41 @@ hr {
 aside {       
    margin-top: -12px;
    padding-bottom: 4.8rem;
-  }         
+  }  
+
+  footer {
+	background-color: rgba(45, 45, 45, 0.98);
+	color: darkgray;
+    padding: 5%;
+    bottom: 0;
+
+}
+
+h1{
+    color: white;
+}
+
+footer>nav {
+	display: inline-block;
+	font-size: 11px;
+    position: center;
+    bottom: 0;
+    padding: 5%;
+    padding-top: 1%;
+}
+
+footer>a {
+    text-decoration-color: none;
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer>nav>ul>li {
+	list-style-type: none;
+    line-height: 1.8em;
+
+}
+
+footer>section {
+    font-size: 11px;
+}
